@@ -1,6 +1,8 @@
 Hello.
 In this code, without a radio controller, we want to calibrate the speed controller with stm32f103c8t6. For this, the 30 A speed controller data sheet (yellow color) which is attached in this file is used.
 
+I have used keil and cubemx.
+
 To use this code, just setup Timer 3 and then replace the main.c file with your own main.c file(copy and paste codes).in this program, micros is also used, so you just need to put micros.h file in the core/inc folder.
 
 timer frequency=60 HZ
